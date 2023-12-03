@@ -3,11 +3,11 @@ import HeaderContentHome from './HeaderContentHome'
 
 function ContentHome() {
   return (
-    <div>
+    <section>
       <HeaderContentHome />
       <div className='bg-white bg-opacity-70  mt-4 rounded-md shadow-xl py-2'>
         <div className="overflow-x-auto">
-          <table className="w-full flex flex-wrap table">
+          <table className="w-full flex-wrap table">
             <thead>
               <tr>
                 <th>Nama</th>
@@ -87,7 +87,7 @@ function ContentHome() {
           </table>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

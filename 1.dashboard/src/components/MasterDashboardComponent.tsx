@@ -11,7 +11,7 @@ import { IoMdNotificationsOutline } from 'react-icons/io'
 
 function MasterDashboardComponent({ children }: { children: React.ReactNode }) {
   return (
-    <section className='w-screen h-screen bg-heroyellow2 bg-no-repeat bg-right-bottom'>
+    <section className='w-full h-full bg-heroyellow2 bg-no-repeat bg-right-bottom'>
       <div className='bg-heroEllipse bg-no-repeat bg-right-top'>
         <div className='bg-heroyellow bg-no-repeat relative'>
           {/* navbar */}
@@ -72,8 +72,8 @@ function MasterDashboardComponent({ children }: { children: React.ReactNode }) {
 
           </div>
           {/* sidebar & content */}
-          <div className=" px-12 pt-3 sticky flex">
-            <div className=' hidden md:flex w-[250px]'>
+          <div className="w-full px-12 pt-3 sticky flex">
+            <div className=' hidden md:flex w-[250px] md:w-[18%]'>
               <div>
                 <div className='flex flex-row gap-3'>
                   <div className='bg-slate-100  rounded-full  w-16 h-16 flex justify-center items-center'>
@@ -85,48 +85,48 @@ function MasterDashboardComponent({ children }: { children: React.ReactNode }) {
                 </div>
 
                 {/* content sidebar */}
-                <div className='bg-white  bg-opacity-70 mt-5 m-3 rounded-md shadow-xl py-2 w-[200px]'>
+                <div className='bg-white  bg-opacity-70 mt-5 m-3 rounded-md shadow-xl py-2 w-[200px] text-sm'>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Dashboard</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Explore</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>My Setting</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Calendar</div>
                   </div>
                 </div>
 
                 {/* content sidebar */}
-                <div className='bg-white bg-opacity-70    mt-5 m-3 rounded-md shadow-xl py-2'>
+                <div className='bg-white bg-opacity-70    mt-5 m-3 rounded-md shadow-xl py-2 text-sm'>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Dashboard</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Explore</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>My Setting</div>
                   </div>
                   <div className='flex flex-row gap-3 py-1 my-1 px-2'>
-                    <div className='my-auto w-7'><BiSolidDashboard size={25} /></div>
+                    <div className='my-auto w-7'><BiSolidDashboard size={20} /></div>
                     <div className='my-auto'>Calendar</div>
                   </div>
                 </div>
               </div>
             </div>
             {/* content */}
-            <div className=' ml-0 md:ml-[20px] w-full'>
+            <div className=' ml-0 md:ml-[20px] w-full md:w-[82%]'>
               {/* <ContentHome/> */}
               {children}
             </div>
