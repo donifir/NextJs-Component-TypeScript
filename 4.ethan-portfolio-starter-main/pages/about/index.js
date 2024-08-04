@@ -12,18 +12,18 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <FaLaravel />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
+          <FaLaravel key="laravel" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />],
+        icons: [<FaFigma key="figma" />],
       },
     ],
   },
@@ -75,6 +75,7 @@ const aboutData = [
     ],
   },
 ];
+
 
 // Component
 import Circles from '../../components/Circles'
