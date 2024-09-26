@@ -1,0 +1,3 @@
+handle corrs ada di next.config.mjs
+di akhir url response dikasih "/"
+
